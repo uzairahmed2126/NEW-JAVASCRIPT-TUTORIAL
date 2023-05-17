@@ -14,29 +14,28 @@ let substr = str.substring(0, 5)
 console.log(substr.length)
 
 // find index
-let index = str.indexOf('good');
-console.log(index) 
+let index = str.indexOf('good')
+console.log(index)
 
-let LASTindex =str.lastIndexOf('l')
+let LASTindex = str.lastIndexOf('l')
 console.log(LASTindex)
 
 // trim
-let trimstr = str.trimStart();
+let trimstr = str.trimStart()
 console.log(trimstr)
 
-
 // uppercase
-let upper = str.toUpperCase();
+let upper = str.toUpperCase()
 console.log(upper)
 
 // lower
-let lower = str.toLowerCase();
+let lower = str.toLowerCase()
 console.log(lower)
 
 // replace
-let replace = str.replace('good','best ');
+let replace = str.replace('good', 'best ')
 console.log(replace)
 
 // include
-let include = str.includes('JavaScript');
+let include = str.includes('JavaScript')
 console.log(include)

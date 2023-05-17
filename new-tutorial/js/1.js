@@ -7,6 +7,7 @@ console.log(a1)
 let hello = a1
 alert('Your Name is ' + hello)
 
+
 let fontfamily = (document.getElementById('try').style.background = prompt(
   'Font family',
 ))

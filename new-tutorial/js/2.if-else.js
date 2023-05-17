@@ -1,11 +1,12 @@
-// let vote = prompt("What's your age")
-// let voter_id = confirm('Do you have voter Id')
-// if (vote >= 18) {
-// } else if (voter_id === false) {
-//   alert('You should have your voter Id')
-// } else {
-//   alert('Sorry! You are not eligible to Vote!')
-// }
+let vote = prompt("What's your age")
+let voter_id = confirm('Do you have voter Id')
+if (vote >= 18) {
+} else if (voter_id === false) {
+  alert('You should have your voter Id')
+} else {
+  alert('Sorry! You are not eligible to Vote!')
+}
+
 
 let isloggedin = document.getElementById('login') //prompt(`Enter ${true} or ${false}`)
 // let option = isloggedin===prompt?"logout" : "login";

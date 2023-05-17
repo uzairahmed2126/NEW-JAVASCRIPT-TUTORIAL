@@ -6,7 +6,7 @@ function Muliply() {
   // for(i=1;i<=10;i++) {
   //     document.write(`2 x ${i} = ${2*i}<br>`)
   // }
-  alert('Assalamu Alykum')
+  alert('Assalamu  Alykum')
 }
 let make = document.createElement('a')
 make.textContent = 'drag me'
