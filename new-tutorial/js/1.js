@@ -2,20 +2,28 @@
 //  The Defer it is read document and then exicute
 const get_id = document.getElementById('h')
 get_id.innerHTML = 'Uzair Ahmed'
-let a1 = prompt('What is your name');
-console.log(a1);
-let hello = a1;
-alert('Your Name is '+hello);
+let a1 = prompt('What is your name')
+console.log(a1)
+let hello = a1
+alert('Your Name is ' + hello)
 
-let fontfamily = document.getElementById('try').style.background=prompt('Font family')
+let fontfamily = (document.getElementById('try').style.background = prompt(
+  'Font family',
+))
 // console.log(color,fontSize);
-let Bgcolor = document.getElementById('try').style.background=prompt('Enter Background color name')
-let color = document.getElementById('try').style.color=prompt('Enter color name')
-let fontSize = document.getElementById('try').style.fontSize=prompt('Enter font size')
+let Bgcolor = (document.getElementById('try').style.background = prompt(
+  'Enter Background color name',
+))
+let color = (document.getElementById('try').style.color = prompt(
+  'Enter color name',
+))
+let fontSize = (document.getElementById('try').style.fontSize = prompt(
+  'Enter font size',
+))
 
-var digit1 = 5;
-alert((console.log(digit1))); //undefined 5
-console.log(alert(digit1)); // 5 undefined
+var digit1 = 5
+alert(console.log(digit1)) //undefined 5
+console.log(alert(digit1)) // 5 undefined
 const a = 9
 console.log(a + 1)
 
@@ -51,11 +59,5 @@ console.log(`hello ${arr}`)
 
 // comparison and logical operators
 
-let cmpr = 5 === '5';
-console.log(cmpr);
-
-
-
-
-
-
+let cmpr = 5 === '5'
+console.log(cmpr)
