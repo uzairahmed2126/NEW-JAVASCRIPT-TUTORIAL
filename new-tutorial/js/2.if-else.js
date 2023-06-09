@@ -26,8 +26,7 @@ switch (inpt) {
   case 'dog':
   case 'birds':
     alert(`You select ${inpt}`)
-    break;
+    break
   default:
     alert('Enter valid')
 }
-
