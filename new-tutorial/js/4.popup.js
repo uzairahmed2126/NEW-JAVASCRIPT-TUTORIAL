@@ -5,6 +5,7 @@ if (age != null) {
   alert('Name field was blank')
 }
 
+
 let ID = document.querySelector('#txt').value
 if (ID === document.getElementById('click')) {
   console.log(`your name is ${ID}`)

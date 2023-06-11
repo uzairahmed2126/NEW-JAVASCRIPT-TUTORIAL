@@ -16,9 +16,9 @@ console.log(typeof NewBoolean)
 console.log(NewBoolean)
 console.log(typeof String(boolean))
 
-// let str = prompt('Enter user name')
-// if (str === '$' && str === '%') {
-//   console.log('equal')
-// } else {
-//   console.log('not equal')
-// }
+let str = prompt('Enter user name')
+if (str === '$' && str === '%') {
+  console.log('equal')
+} else {
+  console.log('not equal')
+}
