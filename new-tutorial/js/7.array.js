@@ -51,4 +51,3 @@ function myfu(a) {
 let b = books.forEach((element) => {
   console.log(element)
 })
-
