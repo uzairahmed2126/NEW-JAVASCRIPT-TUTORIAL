@@ -1,28 +1,25 @@
-let callFunc = function(){
-    let i =setTimeout(callFunc,1000)
-    // console.log(i)
+let callFunc = function () {
+  let i = setTimeout(callFunc, 1000)
+  // console.log(i)
 }
 
-callFunc();
+callFunc()
 // Immediately invoked function for one time work and access only one time from RAM
-(function(){
-    let i = setTimeout(callFunc,1000);
-    // console.log(i)
-})();
+;(function () {
+  let i = setTimeout(callFunc, 1000)
+  // console.log(i)
+})()
 
-
-
-let sameVariable = 'same1';
-function same(){
-    console.log(sameVariable)
+let sameVariable = 'same1'
+function same() {
+  console.log(sameVariable)
 }
-same();
+same()
 
-
-(function () {
-let sameVariable = 'same2';
-function same(){
+;(function () {
+  let sameVariable = 'same2'
+  function same() {
     console.log(sameVariable)
-}
-same();
-})();
+  }
+  same()
+})()
