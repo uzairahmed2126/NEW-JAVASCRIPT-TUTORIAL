@@ -94,11 +94,9 @@ const get_set = {
 document.write(get_set.getname)
 
 const set = {
-    set Name (n){
-        this.name = n.toLowerCase();
-      }
+  set Name(n) {
+    this.name = n.toLowerCase()
+  },
 }
 set.Name = 'hello'
-console.log(set);
-
-
+console.log(set)
