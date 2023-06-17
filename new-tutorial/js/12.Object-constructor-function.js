@@ -6,6 +6,7 @@ function Student() {
   this.clgYear
   return arguments
 }
+
 // ===============================||
 // object prototypes              ||
 Student.prototype.state = 'jdr' //||
