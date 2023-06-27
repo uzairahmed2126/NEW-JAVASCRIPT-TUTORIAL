@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(224, 223, 221, 0.397);
+
+}
+
+#object {
+    background-color: rgba(114, 113, 112, 0.993);
+    box-shadow: rgba(114, 113, 112, 0.5) 0px 3px 10px 20px;
+    margin: 160px 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 150px 10px 150px;
+    padding: 20px;
+    transform: scale3d(1);
+    transition: all 1s;
+    animation: alternate;
+    rotate: 360deg;
+
+}
+
+p {
+    color: #fff;
+    margin: 5px;
+}
+
+#object .txt {
+    border-radius: 5px 120px 5px 120px;
+    scale: 1.2;
+    text-indent: 5px;
+    /* color: #fff; */
+}
+
+#submit {
+    background-color: rgba(172, 168, 165, 0.911);
+    margin: 10px;
+    justify-content: flex-end;
+    float: right;
+    border-radius: 5px 20px 5px 20px;
+    padding: 8px 30px;
+}
+
+#object :hover {
+    transform: scale3d(1);
+    transition: all 1s;
+    animation: alternate;
+    rotate: 360deg;
+}
