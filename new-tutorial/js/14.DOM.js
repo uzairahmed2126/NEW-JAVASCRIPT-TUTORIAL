@@ -13,5 +13,5 @@ for (let i = 0; i < className.length; i++) {
 let className1 = document.querySelector('div').getElementsByTagName('input')
 for (const key in className1) {
   className1[key].placeholder = `Enter your information ${className1}`
-  className1[key].style.borderRadius='90px'
+  className1[key].style.borderRadius = '90px'
 }
