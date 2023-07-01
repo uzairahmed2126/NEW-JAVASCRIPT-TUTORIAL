@@ -5,6 +5,7 @@ console.log(a)
 
 let className = document.querySelector('div').getElementsByTagName('input')
 // className = document.placeholder='h'
+
 console.log(className)
 for (let i = 0; i < className.length; i++) {
   className[i].placeholder = 'a'
