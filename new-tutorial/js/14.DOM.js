@@ -12,7 +12,10 @@ for (let i = 0; i < className.length; i++) {
 }
 
 let className1 = document.querySelector('div').getElementsByTagName('input')
-for (const key in className1) {
-  className1[key].placeholder = `Enter your information ${className1}`
-  className1[key].style.borderRadius = '90px'
-}
+// for (const key in className1) {
+//   className1[key].placeholder = `Enter your information ${className1}`
+//   className1[key].style.borderRadius = '90px'
+// }
+
+let getel = document.getElementById('object')
+console.log(getel.innerHTML='<div><h1 style="background-color:yellow; border-radius:10px;text-align:center;">hi</h1></div>')
