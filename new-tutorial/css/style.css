@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
 }
@@ -22,7 +22,6 @@ body {
     transition: all 1s;
     animation: alternate;
     rotate: 360deg;
-
 }
 
 p {
@@ -34,7 +33,7 @@ p {
     border-radius: 5px 120px 5px 120px;
     scale: 1.2;
     text-indent: 5px;
-    /* color: #fff; */
+    color: #fff; 
 }
 
 #submit {
@@ -51,4 +50,18 @@ p {
     transition: all 1s;
     animation: alternate;
     rotate: 360deg;
+}
+
+img{
+    width: 7.5%;
+    object-fit: contain;
+    aspect-ratio: 2/3;
+    mix-blend-mode: color-burn;
+    background-color: white;
+} */
+body{
+    display: block;
+}
+html {
+        background: #BADA55;
 }
