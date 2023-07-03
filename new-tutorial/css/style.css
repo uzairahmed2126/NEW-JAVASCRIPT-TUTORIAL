@@ -32,7 +32,7 @@ p {
     border-radius: 5px 120px 5px 120px;
     scale: 1.2;
     text-indent: 5px;
-    color: #fff; 
+    color: #000; 
 }
 
 #submit {
@@ -45,16 +45,16 @@ p {
 }
 
 #object :hover {
-    transform: scale3d(1);
-    transition: all 1s;
-    animation: backwards infinite;
+    /* transform: scale3d(1); */
+    /* transition: ease-out; */
+    animation:  infinite ease-in-out;
     rotate: 360deg ;
 }
 
-/* img{
+img{
     width: 7.5%;
     object-fit: contain;
     aspect-ratio: 2/3;
     mix-blend-mode: color-burn;
     background-color: white;
-} */
+}

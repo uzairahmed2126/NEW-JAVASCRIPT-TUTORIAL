@@ -42,5 +42,24 @@ for (const Toprint in query) {
 
 // traversing elements
 let parent = document.getElementById('object')
-let parent1 = parent.siblings
+let parent1 = parent.parentElement
 console.log(parent1)
+
+parent1 = parent.firstElementChild
+console.log(parent1)
+
+parent1 = parent.lastElementChild
+console.log(parent1)
+
+parent1 = parent.children //collection
+console.log(parent1)
+
+let prev = document.getElementById('object');
+let getel = prev.previousElementSibling;
+console.log(getel)
+
+
+
+let next = document.querySelector('p');
+let nextEl = prev.nextElementSibling;
+console.log(nextEl)
