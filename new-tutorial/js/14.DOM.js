@@ -19,3 +19,28 @@ let className1 = document.querySelector('div').getElementsByTagName('input')
 
 // let getel = document.getElementById('object')
 // console.log(getel.innerHTML='<div><h1 style="background-color:yellow; border-radius:10px;text-align:center;">hi</h1></div>')
+
+console.log(typeof document.getElementsByTagName) //function
+
+let div = document.getElementById('object')
+console.log(typeof div) //object
+
+let Indiv = div.getElementsByTagName('input')
+for (const key in Indiv) {
+  Indiv[key].placeholder = 'Fill form'
+  // Indiv[key].style.textIndent='13px'
+}
+
+// querySelector
+let query = document.querySelectorAll('p')
+console.log(query)
+
+// querySelectorAll
+for (const Toprint in query) {
+  query[Toprint].innerHTML = 'helo'
+}
+
+// traversing elements
+let parent = document.getElementById('object')
+let parent1 = parent.siblings
+console.log(parent1)

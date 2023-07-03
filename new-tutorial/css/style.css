@@ -1,4 +1,4 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
 }
@@ -11,17 +11,16 @@ body {
 #object {
     background-color: rgba(114, 113, 112, 0.993);
     box-shadow: rgba(114, 113, 112, 0.5) 0px 3px 10px 20px;
-    margin: 160px 500px;
+    /* margin: 160px 500px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 10px 150px 10px 150px;
     padding: 20px;
-    transform: scale3d(1);
     transition: all 1s;
-    animation: alternate;
-    rotate: 360deg;
+    animation:steps(9) infinite;
+    /* rotate: 360deg; */
 }
 
 p {
@@ -48,20 +47,14 @@ p {
 #object :hover {
     transform: scale3d(1);
     transition: all 1s;
-    animation: alternate;
-    rotate: 360deg;
+    animation: backwards infinite;
+    rotate: 360deg ;
 }
 
-img{
+/* img{
     width: 7.5%;
     object-fit: contain;
     aspect-ratio: 2/3;
     mix-blend-mode: color-burn;
     background-color: white;
 } */
-body{
-    display: block;
-}
-html {
-        background: #BADA55;
-}
