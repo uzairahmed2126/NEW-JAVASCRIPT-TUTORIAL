@@ -54,12 +54,32 @@ console.log(parent1)
 parent1 = parent.children //collection
 console.log(parent1)
 
-let prev = document.getElementById('object');
-let getel = prev.previousElementSibling;
+let prev = document.getElementById('object')
+let getel = prev.previousElementSibling
 console.log(getel)
 
-
-
-let next = document.querySelector('p');
-let nextEl = prev.nextElementSibling;
+let next = document.querySelector('p')
+let nextEl = prev.nextElementSibling
 console.log(nextEl)
+
+let elm = document.getElementById('fan')
+let content = elm.innerHTML //replace
+console.log(content)
+elm.innerHTML = '<h1>hey this is heading first</h1>'
+
+let Element = document.getElementById('fan')
+let anchor = document.createElement('a')
+anchor.href =
+  '/new-tutorial/images/WhatsApp Image 2023-06-14 at 8.26.51 PM.jpeg'
+
+let txt = document.createTextNode('click me')
+anchor.append(txt)
+Element.appendChild(anchor)
+console.log(Element)
+document.body.appendChild(anchor)
+anchor.textContent = 'From text content'
+
+let list = document.getElementById('list')
+let item = document.createElement('li')
+item.textContent = 'list 5'
+list.appendChild(item)
