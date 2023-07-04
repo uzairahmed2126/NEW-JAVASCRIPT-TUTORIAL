@@ -63,23 +63,48 @@ let nextEl = prev.nextElementSibling
 console.log(nextEl)
 
 let elm = document.getElementById('fan')
-let content = elm.innerHTML //replace
+let content = elm.innerHTML 
 console.log(content)
-elm.innerHTML = '<h1>hey this is heading first</h1>'
+// elm.innerHTML = '<h1>hey this is heading first</h1>'
 
-let Element = document.getElementById('fan')
+let Elt = document.getElementById('fan')
 let anchor = document.createElement('a')
 anchor.href =
   '/new-tutorial/images/WhatsApp Image 2023-06-14 at 8.26.51 PM.jpeg'
 
 let txt = document.createTextNode('click me')
 anchor.append(txt)
-Element.appendChild(anchor)
-console.log(Element)
+Elt.appendChild(anchor)
+console.log(Elt)
 document.body.appendChild(anchor)
 anchor.textContent = 'From text content'
 
 let list = document.getElementById('list')
 let item = document.createElement('li')
-item.textContent = 'list 5'
-list.appendChild(item)
+item.textContent = 'This '
+let position = list.firstElementChild;
+// list.insertBefore(item,position);
+// list.appendChild(item)
+// list.remove(list)
+let getbody = document.body;
+// getbody.removeChild(list)
+
+
+
+// Clone Element
+//if clone has a true then it to be print whole element who is in the first node
+// let clone =list.cloneNode(true)
+// console.log(clone)
+
+// it print all thing who is in cloneNode
+list.cloneNode()
+console.log(list)
+
+// replace
+let creat = document.createElement('li')
+creat.textContent = 'hello world'
+let replace = list.firstElementChild.nextElementSibling
+list.replaceChild(creat,replace)
+
+// insetAdjacent
+Elt.insertAdjacentHTML('beforeend','<h1>hey im from dom</h1>')
