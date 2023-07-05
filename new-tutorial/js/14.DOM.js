@@ -121,7 +121,11 @@ console.log(val)
 // removeAttribute
 let rmv = btn.removeAttribute('placeholder')
 
-btn.setAttribute('placeholder','Enter your name')
+btn.setAttribute('placeholder', 'Enter your name')
 
-let has = btn.hasAttribute('placeholder');
+let has = btn.hasAttribute('placeholder')
 console.log(has)
+
+// Inline style
+btn.style.cssText =
+  'background:yellow; color:red;border-radius:102px 50px 20px;width:52px;'
