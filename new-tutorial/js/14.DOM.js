@@ -128,4 +128,35 @@ console.log(has)
 
 // Inline style
 btn.style.cssText =
-  'background:yellow; color:red;border-radius:102px 50px 20px;width:52px;'
+  'background:aqua; color:red; border-radius:102px 50px 20px;width:52px;'
+
+// get computed CSS to which property has given in css
+// inline CSS has a first opportunity
+let css = getComputedStyle(btn)
+console.log(css.background)
+
+// className
+let cls = (btn.className += ' hey hello')
+console.log(cls)
+
+// classList 
+let list1 = btn.classList
+console.log(list1)
+for (const check of list1) {
+  console.log(check)
+}
+
+// toggle
+btn.classList.toggle('button')
+
+// height and width
+let height = btn.offsetHeight
+let width = btn.offsetWidth
+console.log(`height is ${height}`)
+console.log(`width is ${width}`)
+
+let clienth = btn.clientHeight
+let clientw = btn.clientWidth
+console.log(`clientheight is ${clienth}`)
+console.log(`clientwidth is ${clientw}`)
+
