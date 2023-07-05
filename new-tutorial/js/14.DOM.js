@@ -108,3 +108,12 @@ list.replaceChild(creat,replace)
 
 // insetAdjacent
 Elt.insertAdjacentHTML('beforeend','<h1>hey im from dom</h1>')
+
+// Attribute 
+let btn = document.getElementById('btn')
+btn.setAttribute('placeholder','hey click me')
+btn.setAttribute("style","background:green;")
+btn.setAttribute("style","border:aqua 2px dotted;");
+
+
+
