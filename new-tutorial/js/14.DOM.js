@@ -63,7 +63,7 @@ let nextEl = prev.nextElementSibling
 console.log(nextEl)
 
 let elm = document.getElementById('fan')
-let content = elm.innerHTML 
+let content = elm.innerHTML
 console.log(content)
 // elm.innerHTML = '<h1>hey this is heading first</h1>'
 
@@ -82,14 +82,12 @@ anchor.textContent = 'From text content'
 let list = document.getElementById('list')
 let item = document.createElement('li')
 item.textContent = 'This '
-let position = list.firstElementChild;
+let position = list.firstElementChild
 // list.insertBefore(item,position);
 // list.appendChild(item)
 // list.remove(list)
-let getbody = document.body;
+let getbody = document.body
 // getbody.removeChild(list)
-
-
 
 // Clone Element
 //if clone has a true then it to be print whole element who is in the first node
@@ -104,16 +102,26 @@ console.log(list)
 let creat = document.createElement('li')
 creat.textContent = 'hello world'
 let replace = list.firstElementChild.nextElementSibling
-list.replaceChild(creat,replace)
+list.replaceChild(creat, replace)
 
 // insetAdjacent
-Elt.insertAdjacentHTML('beforeend','<h1>hey im from dom</h1>')
+Elt.insertAdjacentHTML('beforeend', '<h1>hey im from dom</h1>')
 
-// Attribute 
+// Attribute
 let btn = document.getElementById('btn')
-btn.setAttribute('placeholder','hey click me')
-btn.setAttribute("style","background:green;")
-btn.setAttribute("style","border:aqua 2px dotted;");
+btn.setAttribute('placeholder', 'hey click me')
+btn.setAttribute('style', 'background:green;')
+btn.setAttribute('style', 'border:green 2px solid;')
+btn.setAttribute('style', 'border-radius:22px  ;')
 
+// getAttribute
+let val = btn.getAttribute('placeholder')
+console.log(val)
 
+// removeAttribute
+let rmv = btn.removeAttribute('placeholder')
 
+btn.setAttribute('placeholder','Enter your name')
+
+let has = btn.hasAttribute('placeholder');
+console.log(has)
