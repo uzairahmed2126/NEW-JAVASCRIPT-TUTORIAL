@@ -10,7 +10,7 @@ creat.addEventListener('click', function () {
 })
 
 creat.addEventListener('mouseenter', function () {
-  Addevnt.style.backgroundColor = 'green'
+  Addevnt.style.backgroundColor = 'aqua'
 })
 creat.setAttribute('class', 'btn cls')
 let evnt = document.firstElementChild.appendChild(creat)
@@ -30,3 +30,25 @@ window.addEventListener('load', function () {
 })
 
 // mouse Events
+creat.addEventListener('contextmenu', function () {
+    alert('right click')
+})
+
+
+creat.addEventListener('dblclick', function () {
+    console.log('dbl')
+})
+
+// window.addEventListener('keydown',function(keypress){
+//     console.log(keypress.key)
+// })
+
+window.addEventListener('keyup',function(keypress){
+    if(keypress.key ==='Escape') {
+        console.log(`you press this ${keypress.key}`)
+        this.document.body.style.background='green'
+    }else{
+        console.log(`you press this ${keypress.key}`)
+        this.document.body.style.background=''
+    }
+})
