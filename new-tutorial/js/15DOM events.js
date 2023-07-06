@@ -11,7 +11,7 @@ creat.addEventListener('mouseenter', function () {
   Addevnt.style.backgroundColor = 'green'
 })
 creat.setAttribute('class', 'btn cls')
-let evnt = document.body.appendChild(creat)
+let evnt = document.firstElementChild.appendChild(creat)
 console.log(evnt)
 let Addevnt = document.querySelector('.cls')
 function hey() {
@@ -27,3 +27,5 @@ window.addEventListener('DOMContentLoaded', function () {
 window.addEventListener('load', function () {
   console.log('loaded')
 })
+let h = evnt.clientWidth
+console.log(h)
