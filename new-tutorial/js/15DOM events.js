@@ -74,13 +74,13 @@
 // })
 
 let creatInput = document.createElement('input')
-creatInput.setAttribute('type','text')
-creatInput.setAttribute('class','input-txt')
+creatInput.setAttribute('type', 'text')
+creatInput.setAttribute('class', 'input-txt')
 let clas = document.querySelector('.input-txt')
 let apnd = document.body.appendChild(creatInput)
-apnd.addEventListener('focus',function(){
-    apnd.style.background='red'
+apnd.addEventListener('focus', function () {
+  apnd.style.background = 'red'
 })
-apnd.addEventListener('blur',function(){
-    apnd.style.background=''
+apnd.addEventListener('blur', function () {
+  apnd.style.background = ''
 })
