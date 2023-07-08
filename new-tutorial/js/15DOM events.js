@@ -80,8 +80,15 @@ let clas = document.querySelector('.input-txt')
 let apnd = document.body.appendChild(creatInput)
 apnd.addEventListener('focus', function () {
   apnd.style.background = 'red'
+  apnd.style.color = '#fff'
 })
 apnd.addEventListener('mouseleave', function () {
   apnd.style.background = 'transparent'
 //   apnd.style.borderStyle = 'none'
+})
+apnd.addEventListener('change' ,function(){
+    console.log(this.value.style.color='green')
+})
+apnd.addEventListener('input' ,function(){
+    console.log(this.value)
 })
