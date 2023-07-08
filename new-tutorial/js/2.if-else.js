@@ -7,7 +7,6 @@ if (vote >= 18) {
   alert('Sorry! You are not eligible to Vote!')
 }
 
-
 let isloggedin = document.getElementById('login') //prompt(`Enter ${true} or ${false}`)
 // let option = isloggedin===prompt?"logout" : "login";
 if (isloggedin === '#$_') {

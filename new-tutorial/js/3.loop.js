@@ -1,8 +1,8 @@
-let counter = 0+1;
-while(counter<=9+1){
-    console.log(counter);
-        counter===5 ;
-    counter++;
+let counter = 0 + 1
+while (counter <= 9 + 1) {
+  console.log(counter)
+  counter === 5
+  counter++
 }
 var count = 1
 let sum = 0

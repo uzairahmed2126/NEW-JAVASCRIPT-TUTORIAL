@@ -7,11 +7,10 @@ console.log(a1)
 let hello = a1
 alert('Your Name is ' + hello)
 
-
 let fontfamily = (document.getElementById('try').style.background = prompt(
   'Font family',
 ))
-// console.log(color,fontSize); 
+// console.log(color,fontSize);
 let Bgcolor = (document.getElementById('try').style.background = prompt(
   'Enter Background color name',
 ))
