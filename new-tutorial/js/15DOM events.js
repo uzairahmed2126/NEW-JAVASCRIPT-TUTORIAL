@@ -81,6 +81,7 @@ let apnd = document.body.appendChild(creatInput)
 apnd.addEventListener('focus', function () {
   apnd.style.background = 'red'
 })
-apnd.addEventListener('blur', function () {
-  apnd.style.background = ''
+apnd.addEventListener('mouseleave', function () {
+  apnd.style.background = 'transparent'
+//   apnd.style.borderStyle = 'none'
 })
