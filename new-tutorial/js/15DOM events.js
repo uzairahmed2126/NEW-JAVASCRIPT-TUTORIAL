@@ -112,16 +112,35 @@ let button = document.getElementById('clickME')
 // when i click on whatever element who has has a true then the Event Capturing has to be work
 // If you want to do all event activate but at time one to be run then we use stopPropagation function when the whole event is doesn't has a ture value
 
-document.body.addEventListener('click', function (prop1) {
-  console.log('body clicked...')
-  prop1.stopPropagation()
-})
-div.addEventListener('click', function (prop2) {
-  console.log('Div clicked...')
-  prop2.stopPropagation()
-})
+// document.body.addEventListener('click', function (prop1) {
+//   console.log('body clicked...')
+//   prop1.stopPropagation()
+// })
+// div.addEventListener('click', function (prop2) {
+//   console.log('Div clicked...')
+//   prop2.stopPropagation()
+// })
 
-button.addEventListener('click', function (prop3) {
-  console.log('Button clicked...')
-  prop3.stopPropagation()
-})
+// button.addEventListener('click', function (prop3) {
+//   console.log('Button clicked...')
+//   prop3.stopPropagation()
+// })
+
+let ar1 = [1, 2, 3]
+let ar2 = [1, 2, 3]
+console.log(ar1 === ar2) //false
+console.log(ar1 !== ar2) //true
+
+let link = document.getElementById('anchor')
+link.addEventListener('click', preventDef)
+let form = document.getElementById('myform')
+form.addEventListener('click', preventDef1)
+function preventDef(event) {
+  event.preventDefault()
+  console.log('link clicked...')
+}
+
+function preventDef1(event) {
+  event.preventDefault()
+  console.log('submit clicked...')
+}
