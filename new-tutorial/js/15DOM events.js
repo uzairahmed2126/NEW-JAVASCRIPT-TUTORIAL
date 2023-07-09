@@ -125,5 +125,3 @@ button.addEventListener('click', function (prop3) {
   console.log('Button clicked...')
   prop3.stopPropagation()
 })
-
-// stop propogation
