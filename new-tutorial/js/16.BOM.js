@@ -5,5 +5,5 @@ console.log(window.innerWidth + ' inner width')
 
 let id = document.getElementById('btn');
 id.addEventListener('click' ,function(){
-    window.open('/new-tutorial/html/DOM events.html','DOM window',"height=500, width=500")
+    window.open('/new-tutorial/html/DOM events.html','DOM window',"height=500, width=500,font-family='Courier New', Courier, monospace")
 })
