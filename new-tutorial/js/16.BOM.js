@@ -25,3 +25,14 @@ let id2 = document.getElementById('btn2')
 id2.addEventListener('click', function () {
   window.close()
 })
+
+// let time = setInterval(msg,4000)
+// function msg(){
+//     prompt('hiii')
+// }
+// console.log(time)
+// if(msg==true){
+//     clearInterval(time)
+// }else{
+//     console.log('..')
+// }
