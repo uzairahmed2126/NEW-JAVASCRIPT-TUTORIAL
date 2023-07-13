@@ -41,7 +41,7 @@
 
 let getid = document.getElementById('btn-ggl').addEventListener('click',fun)
 function fun(){
-    location = 'https://www.github.com'
+    // location.href = '/new-tutorial/images/660513.jpg '
+    location.assign  ('https://www.google.com')
 }
-
-
+ 
