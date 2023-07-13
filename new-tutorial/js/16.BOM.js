@@ -42,6 +42,8 @@
 let getid = document.getElementById('btn-ggl').addEventListener('click',fun)
 function fun(){
     // location.href = '/new-tutorial/images/660513.jpg '
-    location.assign  ('https://www.google.com')
+    // location.assign  ('https://www.google.com')
+    location.reload();
 }
  
+// navigater object
