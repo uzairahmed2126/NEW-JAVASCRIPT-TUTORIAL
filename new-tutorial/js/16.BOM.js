@@ -46,4 +46,12 @@ function fun(){
     location.reload();
 }
  
-// navigater object
+// navigator object
+console.log(navigator.appCodeName)
+console.log(navigator.cookieEnabled)
+console.log(navigator.userAgent)
+console.log(navigator.language)
+console.log(navigator.javaEnabled())
+
+
+
