@@ -1,0 +1,57 @@
+body {
+  padding: 100px 100px;
+}
+#container {
+  background-color: rgba(255, 99, 71, 0.671);
+  padding: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 0 0 10px 10px;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(102, 51, 153, 0.226);
+  margin-bottom: 0;
+  border-radius: 10px 10px 0px 0px;
+  font-style: italic;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: underline rgba(8, 2, 1, 0.479);
+}
+
+.inp {
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 30px;
+  width: 250px;
+  font-weight: bold;
+  border: none;
+}
+
+.input-div {
+  display: inline-block;
+}
+
+label {
+  font-size: 20px;
+  font-style: italic;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: underline rgba(8, 2, 1, 0.479);
+}
+
+.inp:hover {
+  scale: 1.0098;
+  background-color: rgba(99, 44, 44, 0.651);
+  color: white;
+  transition: all 1s;
+  box-shadow: rgba(19, 0, 0, 0.644) 0px 0.5px 12px 8px;
+  text-decoration: underline rgba(8, 2, 1, 0.479);
+  border: none;
+}
