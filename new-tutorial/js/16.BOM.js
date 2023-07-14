@@ -54,4 +54,14 @@ console.log(navigator.language)
 console.log(navigator.javaEnabled())
 
 
+// screen Object
+console.log(screen.colorDepth)
+console.log(screen.width)
+console.log(screen.height)
+console.log(screen.orientation)
+
+
+
+
+
 
