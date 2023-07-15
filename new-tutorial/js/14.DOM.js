@@ -139,7 +139,7 @@ console.log(css.background)
 let cls = (btn.className += ' hey hello')
 console.log(cls)
 
-// classList 
+// classList
 let list1 = btn.classList
 console.log(list1)
 for (const check of list1) {
@@ -159,4 +159,3 @@ let clienth = btn.clientHeight
 let clientw = btn.clientWidth
 console.log(`clientheight is ${clienth}`)
 console.log(`clientwidth is ${clientw}`)
-

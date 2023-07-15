@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trispace', sans-serif;
+  font-weight: bolder;
+}
+
+#main-div {
+  background-color: rgba(9, 70, 9, 0.616);
+  padding: 10px 100px 10px 100px;
+  margin: 100px 10px 10px 10px;
+  box-shadow: rgba(19, 0, 0, 0.747) 0px 0.5px 12px 8px;
+  color: #f5f5f5;
+}
+
+p {
+  /* font-size: 18px; */
+  text-align: justify;
+}
+#div1 {
+  background-color: rgba(0, 0, 0, 0.199);
+  padding: 10px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin: 5px;
+  border: 2px solid rebeccapurple;
+}
+#div2 {
+  background-color: rgba(0, 128, 0, 0.048);
+  padding: 10px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin: 5px;
+  border: 2px solid rebeccapurple;
+}
+#div3 {
+  background-color: rgba(2, 22, 22, 0.336);
+  padding: 10px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin: 5px;
+  border: 2px solid rebeccapurple;
+}
+#div4 {
+  background-color: rgba(89, 182, 14, 0.425);
+  padding: 10px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin: 5px;
+  border: 2px solid rebeccapurple;
+}
+#div5 {
+  /* background-color: rgba(89, 182, 14, 0.425); */
+  padding: 10px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin: 5px;
+  border: 2px solid rebeccapurple;
+}
+input[type=color] {
+    width: 25px;
+    height: 25px; 
+    overflow: hidden;   
+    content: "hello";
+}
+#parent-div {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  justify-content: flex-end;
+}
+.flex {
+  display: flex;
+  width: fit-content;
+  background-color: rgba(219, 206, 185, 0.856);
+  border-radius: 20px;
+}
