@@ -1,0 +1,35 @@
+body {
+  padding: 100px  20px 100px 20px;
+  background: rgba(187, 130, 7, 0.171);
+  font-family: 'Trispace', sans-serif;
+  font-weight: bolder;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+  margin-top: 45px;
+}
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+textarea {
+  border-radius: 10px;
+  text-indent: 10px;
+  font-size: x-large;
+  border-color: transparent;
+  box-shadow: rgba(19, 0, 0, 0.644) 0px 0.5px 12px 8px;
+}
+
+textarea:hover {
+  scale: 1.0089;
+  border: none;
+}
