@@ -1,0 +1,69 @@
+img {
+  width: 200px;
+  border-radius: 50%;
+  animation: zoom 12s both infinite;
+}
+#header {
+  text-align: center;
+}
+img:hover {
+  transition: all 4s ease-in-out 1s;
+  cursor: pointer;
+  background: url(https://github.com/uzairahmed2126);
+  transform: scale3d(60deg);
+  scale: 1.045;
+  box-shadow: rgba(253, 234, 234, 0.932) 0px 1px 2px 2px;
+}
+
+body {
+  background-color: #00000018;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#menu-bar {
+  background-color: rgba(35, 44, 35, 0.308);
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+li {
+  list-style: none;
+  padding: 5px;
+}
+li:hover {
+  scale: 1.5;
+  background-color: rgba(0, 255, 255, 0.068);
+  border-radius: 10px;
+  transition: all 1s ease-in-out 0.1s;
+  cursor: pointer;
+  box-shadow: rgba(19, 0, 0, 0.644) 0px 1px 2px 2px;
+}
+
+#paragraph {
+  background-color: aliceblue;
+  padding: 10px;
+  margin: 0 120px;
+  text-align: justify;
+  box-shadow: rgba(5, 1, 1, 0.664) 0px 1px 2px 2px;
+  border-radius: 10px;
+  text-decoration: underline gray;
+}
+
+/* .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+} */
+
+@keyframes zoom {
+0% {
+    transform: scale3d(360deg);
+}
+100%{
+    transform: rotate(360deg);
+}
+200%{
+    transition: all 4s ease-in-out;
+}
+}
