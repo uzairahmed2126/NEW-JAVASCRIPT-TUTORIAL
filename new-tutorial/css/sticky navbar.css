@@ -1,7 +1,10 @@
 img {
   width: 200px;
   border-radius: 50%;
-  animation: zoom 12s both infinite;
+  animation: zoom 6000ms alternate infinite ;
+  /* -webkit-animation: linear infinite alternate;
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 4000ms; */
 }
 #header {
   text-align: center;
@@ -21,21 +24,22 @@ body {
 }
 
 #menu-bar {
-  background-color: rgba(35, 44, 35, 0.308);
+  background-color: rgba(35, 44, 35, 0.87);
   display: flex;
   justify-content: space-around;
   padding: 40px 20px;
   border-radius: 10px;
+  color: #fff;
 }
 li {
   list-style: none;
   padding: 5px;
 }
 li:hover {
-  scale: 1.5;
+  scale: 1.25;
   background-color: rgba(0, 255, 255, 0.068);
   border-radius: 10px;
-  transition: all 1s ease-in-out 0.1s;
+  transition: all 400ms ease-in-out 0.1s;
   cursor: pointer;
   box-shadow: rgba(19, 0, 0, 0.644) 0px 1px 2px 2px;
 }
@@ -50,20 +54,25 @@ li:hover {
   text-decoration: underline gray;
 }
 
-/* .sticky {
+.sticky {
     position: fixed;
     top: 0;
-    width: 100%;
-} */
+    right: 0;
+    left: 0;
+}
 
 @keyframes zoom {
 0% {
     transform: scale3d(360deg);
+    overflow: scroll;
+    left: 0;
+}
+50%{
+    right: 0;
 }
 100%{
-    transform: rotate(360deg);
-}
-200%{
-    transition: all 4s ease-in-out;
+    left: 0;
+    -webkit-transform: scaleX(-1);
+    transform: rotate(-360deg);
 }
 }
