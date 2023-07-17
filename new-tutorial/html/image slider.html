@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="../css/image slider.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="div-images">
+            <div id="image1" class="slide">
+                <img src="../images/660513.jpg" alt="">
+                <div class="caption">Caption Text 1</div>
+            </div>
+
+            <div id="image2" class="slide">
+                <img src="../images/photo-1627677063748-0de05b0be717.jpeg" alt="">
+                <div class="caption">Caption Text 2</div>
+            </div>
+
+            <div id="image3" class="slide">
+                <img src="../images/flowers.jpg" alt="">
+                <div class="caption">Caption Text 3</div>
+            </div>
+
+            <div id="image4" class="slide">
+                <img src="../images/IMG20220712181901.jpg" alt="">
+                <div class="caption">Caption Text 4</div>
+            </div>
+        </div>
+        <span id="aro1" onclick="controller(-1)" class="arrow prev">&#10094</span>
+        <span id="aro2" onclick="controller(1)" class="arrow next">&#10095</span>
+    </div>
+    <script src="../js/22.image slider.js"></script>
+</body>
+
+</html>
